@@ -123,4 +123,25 @@
     # video 16: Loading controller from the URL
             continued to work on the getUrl() method from the Core class
                 now it loads the controller corresponding to 1st param of URL
+
+    # video 17: Mapping method and paraps
+            continued to work on the constructor
+        url sample: /pages/about (should load the about() method in pages)
+
+
+    #video 18. Base Controller Class
+                started working on the base controller class (Controller.php in libraries)
+                all other controllers will extend this Controller class as it will contain 
+                the methods to load a model and load a view (we will call $this->model() or 
+                $this->view() from the controller methods)
+
+    #video 19. Loading views
+
+    #video 20. Config file and autoloader
+                created the config file
+                created autoloader for libraries in bootstrap.php
+
+    #video 21. includes header and footer
+                created 'inc' directory in views
+            
 */

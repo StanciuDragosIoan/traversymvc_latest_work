@@ -1,9 +1,21 @@
 <?php
 
-    class Posts
+    class Posts extends Controller
     {
         public function __construct()
         {
-            echo 'Posts works..';
+            
+        }
+
+        public function index()
+        {
+            
+        }
+
+        public function about()
+        {
+            
+            
+           
         }
     }
